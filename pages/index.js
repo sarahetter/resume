@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import "../styles.scss";
+import "../assets/scss/styles.scss";
 
 const Index = () => (
   <div>
