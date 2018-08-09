@@ -24,15 +24,19 @@ const Index = () => (
           padding: 20px;
         }
         main h1 {
+          color: #003d5b;
           font-size: 1.2em;
           font-weight: 800;
-          margin-top: 8px;
-          color: #003d5b;
+          margin: 8px 0 5px;
         }
         main h2 {
           font-size: 1em;
           font-weight: 500;
           color: #30638e;
+          margin: 0 0 5px;
+        }
+        main p {
+          margin-top: 0;
         }
         ul {
           list-style: none;
@@ -104,21 +108,50 @@ const Index = () => (
       <article className="Job">
         <h2>Software Engineer - Territorial</h2>
         <p className="Job__Duration">2014/01 - Present</p>
+        <p className="Job__Description">
+          Worked as a full stack web developer at a digital product & branding
+          agency. I created processes around version control, testing,
+          accessibility, and CI/CD. I worked in diverse environments, including
+          as a solo developer, training interns, leading junior developers and
+          remote workers, and with external contractor teams of up to 20 people.
+          I handled client communication and training. I acted as a project lead
+          and lead developer for a project that lead to a client's purchase for
+          63.5 million.
+        </p>
       </article>
-      <h1>balsdkf</h1>
+      <article className="Job">
+        <h2>Web Developer - Freelance</h2>
+        <p className="Job__Duration">2012 - Present</p>
+        <p className="Job__Description">
+          Created plain HTML / CSS or WordPress based websites for clients.
+        </p>
+      </article>
+      <h1>Skills / Technologies</h1>
+      <ul>
+        <li>PHP</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript, ECMAScript</li>
+        <li>Laravel</li>
+        <li>React / Redux</li>
+        <li>SQL</li>
+        <li>AWS (EC2, S3, SQS, IAM)</li>
+        <li>Git</li>
+        <li>Docker</li>
+        <li>Statistics, Mathematics</li>
+        <li>Accessibility</li>
+        <li>Google Cloud Platform</li>
+      </ul>
+      <h1>Education</h1>
       <p>
-        industry's standard dummy text ever since the 1500s, when an unknown
-        printer took a galley more recently with desktop publishing software
-        like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is
-        simply dummy text of the printing and typesetting industry. Lorem Ipsum
-        has been the industry's standard dummy text ever since the 1500s, when
-        an unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived not only five centuries, but also the
-        leap into electronic typesetting, remaining essentially unchanged. It
-        was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.
+        2015 - Diploma in Computer Systems Technology - Saskatchewan Polytechnic
+      </p>
+      <h1>Volunteer / Speaking</h1>
+      <p>Volunteer as instructor & mentor with Canada Learning Code</p>
+      <p>
+        Conference Speaker on topics such as CSS Performance and Rendering, SVG
+        Basics & Animation, Geographical Mapping Applications, Arduino & IOT,
+        AMP
       </p>
     </main>
   </Container>
