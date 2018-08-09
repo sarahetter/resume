@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
             content="initial-scale=1.0, width=device-width"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Lora|Open+Sans"
+            href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,900"
             rel="stylesheet"
           />
           <link
