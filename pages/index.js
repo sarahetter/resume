@@ -141,6 +141,7 @@ const Index = () => (
         <li>Statistics, Mathematics</li>
         <li>Accessibility</li>
         <li>Google Cloud Platform</li>
+<li>Test</li>
       </ul>
       <h1>Education</h1>
       <p>
