@@ -8,67 +8,6 @@ const Index = () => (
     <Head>
       <title>Sarah Etter Resume</title>
     </Head>
-    <style jsx>
-      {`
-        .Sidebar {
-          flex: 1 100%;
-          padding: 20px;
-          font-size: 14px;
-        }
-        .Sidebar h1 {
-          font-size: 4em;
-          text-transform: uppercase;
-        }
-        main {
-          flex: 1 100%;
-          padding: 20px;
-        }
-        main h2 {
-          color: #003d5b;
-          font-size: 1.2em;
-          font-weight: 800;
-          margin: 8px 0 5px;
-        }
-        main h3 {
-          font-size: 1em;
-          font-weight: 500;
-          color: #30638e;
-          margin: 0 0 5px;
-        }
-        main p {
-          margin-top: 0;
-        }
-        ul {
-          list-style: none;
-          padding: 0;
-        }
-
-        .SidebarSection {
-          margin-bottom: 35px;
-        }
-        .SidebarSection__Title {
-          font-size: 1.2em;
-          text-transform: uppercase;
-        }
-
-        @media all and (min-width: 800px) {
-          main {
-            flex: 4 0px;
-          }
-          .Sidebar {
-            flex: 1 0px;
-          }
-        }
-        @media print {
-          main {
-            flex: 3 0px;
-          }
-          .Sidebar {
-            flex: 1 0px;
-          }
-        }
-      `}
-    </style>
     <div className="Sidebar">
       <h1>Sarah Etter</h1>
       <div className="Summary SidebarSection">
