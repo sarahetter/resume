@@ -109,7 +109,7 @@ const Index = () => (
         <h2>Software Engineer - Territorial</h2>
         <p className="Job__Duration">2014/01 - Present</p>
         <p className="Job__Description">
-          Worked as a full stack web developer at a digital product & branding
+          Working as a full stack web developer at a digital product & branding
           agency. I created processes around version control, testing,
           accessibility, and CI/CD. I worked in diverse environments, including
           as a solo developer, training interns, leading junior developers and
