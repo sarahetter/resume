@@ -109,21 +109,22 @@ const Index = () => (
         <h3>Software Engineer - Territorial</h3>
         <p className="Job__Duration">2014/01 - Present</p>
         <p className="Job__Description">
-          Worked as a full stack web developer at a digital product & branding
-          agency. I created processes around version control, testing,
-          accessibility, and CI/CD. I worked in diverse environments, including
-          as a solo developer, training interns, leading junior developers and
-          remote workers, and with external contractor teams of up to 20 people.
-          I handled client communication and training. I acted as a project lead
-          and lead developer for a project that lead to a client's purchase for
-          63.5 million.
+          As a full stack web developer at a digital product and branding
+          agency, I have created processes around version control, testing,
+          accessibility, and CI/CD. I have experience working autonomously and
+          as a team leader: training interns, leading junior developers and
+          remote workers, and interfacing with external contract teams of up to
+          20 people. I have handled client communication and training. I have
+          also acted as a project lead and lead developer for a project that
+          lead to a client's purchase for 63.5 million.
         </p>
       </article>
       <article className="Job">
         <h3>Web Developer - Freelance</h3>
         <p className="Job__Duration">2012 - Present</p>
         <p className="Job__Description">
-          Created plain HTML / CSS or WordPress based websites for clients.
+          I created plain HTML / CSS / jQuery or WordPress based websites for
+          clients.
         </p>
       </article>
       <h2>Skills / Technologies</h2>
