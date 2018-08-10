@@ -146,7 +146,7 @@ const Index = () => (
       <p>
         2015 - Diploma in Computer Systems Technology - Saskatchewan Polytechnic
       </p>
-      <h1>Volunteer / Speaking</h1>
+      <h1>Conferences & Workshops</h1>
       <p>Volunteer as instructor & mentor with Canada Learning Code</p>
       <p>
         Conference Speaker on topics such as CSS Performance and Rendering, SVG
