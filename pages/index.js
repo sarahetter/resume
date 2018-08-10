@@ -10,12 +10,12 @@ const Index = () => (
     </Head>
     <style jsx>
       {`
-        aside {
+        .Sidebar {
           flex: 1 100%;
           padding: 20px;
           font-size: 14px;
         }
-        aside h1 {
+        .Sidebar h1 {
           font-size: 4em;
           text-transform: uppercase;
         }
@@ -23,13 +23,13 @@ const Index = () => (
           flex: 1 100%;
           padding: 20px;
         }
-        main h1 {
+        main h2 {
           color: #003d5b;
           font-size: 1.2em;
           font-weight: 800;
           margin: 8px 0 5px;
         }
-        main h2 {
+        main h3 {
           font-size: 1em;
           font-weight: 500;
           color: #30638e;
@@ -55,7 +55,7 @@ const Index = () => (
           main {
             flex: 4 0px;
           }
-          aside {
+          .Sidebar {
             flex: 1 0px;
           }
         }
@@ -63,13 +63,13 @@ const Index = () => (
           main {
             flex: 3 0px;
           }
-          aside {
+          .Sidebar {
             flex: 1 0px;
           }
         }
       `}
     </style>
-    <aside>
+    <div className="Sidebar">
       <h1>Sarah Etter</h1>
       <div className="Summary SidebarSection">
         <p>
@@ -102,11 +102,11 @@ const Index = () => (
           </li>
         </ul>
       </div>
-    </aside>
+    </div>
     <main>
-      <h1>Work Experience</h1>
+      <h2>Work Experience</h2>
       <article className="Job">
-        <h2>Software Engineer - Territorial</h2>
+        <h3>Software Engineer - Territorial</h3>
         <p className="Job__Duration">2014/01 - Present</p>
         <p className="Job__Description">
           Worked as a full stack web developer at a digital product & branding
@@ -120,13 +120,13 @@ const Index = () => (
         </p>
       </article>
       <article className="Job">
-        <h2>Web Developer - Freelance</h2>
+        <h3>Web Developer - Freelance</h3>
         <p className="Job__Duration">2012 - Present</p>
         <p className="Job__Description">
           Created plain HTML / CSS or WordPress based websites for clients.
         </p>
       </article>
-      <h1>Skills / Technologies</h1>
+      <h2>Skills / Technologies</h2>
       <ul>
         <li>PHP</li>
         <li>HTML</li>
@@ -142,11 +142,11 @@ const Index = () => (
         <li>Accessibility</li>
         <li>Google Cloud Platform</li>
       </ul>
-      <h1>Education</h1>
+      <h2>Education</h2>
       <p>
         2015 - Diploma in Computer Systems Technology - Saskatchewan Polytechnic
       </p>
-      <h1>Conferences & Workshops</h1>
+      <h2>Conferences & Workshops</h2>
       <p>Volunteer as instructor & mentor with Canada Learning Code</p>
       <p>
         Conference Speaker on topics such as CSS Performance and Rendering, SVG
