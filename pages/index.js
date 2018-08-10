@@ -11,6 +11,10 @@ const Index = () => (
   <Container>
     <Head>
       <title>Sarah Etter Resume</title>
+      <meta
+        name="description"
+        content="Resume documenting full stack engineer qualifications."
+      />
     </Head>
     <Sidebar>
       <h1>Sarah Etter</h1>
