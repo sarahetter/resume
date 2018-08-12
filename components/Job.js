@@ -4,19 +4,22 @@ import PropTypes from "prop-types";
 const Job = props => (
   <article className="Job">
     <h3 className="Job__Title">{props.title}</h3>
-    <p className="Job__Duration">{props.duration}</p>
-    {props.children}
+    {props.companyDescription && (
+      <p className="Job__CompanyDescription">{props.companyDescription}</p>
+    )}
+    <div className="Job__Description">{props.children}</div>
   </article>
 );
 
 Job.propTypes = {
   children: PropTypes.node,
   title: PropTypes.string.isRequired,
-  duration: PropTypes.string.isRequired
+  companyDescription: PropTypes.string
 };
 
 Job.defaultProps = {
-  children: null
+  children: null,
+  companyDescription: ""
 };
 
 export default Job;

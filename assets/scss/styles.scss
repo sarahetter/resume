@@ -46,8 +46,10 @@ ul {
   flex: 1;
   flex-flow: row wrap;
 }
-
-// SECTIONS
+main {
+  flex: 1 100%;
+  padding: 20px;
+}
 .Sidebar {
   flex: 1 100%;
   padding: 20px;
@@ -58,35 +60,64 @@ ul {
     text-transform: uppercase;
   }
 }
-main {
-  flex: 1 100%;
-  padding: 20px;
 
+// SECTIONS
+.SidebarSection {
+  margin-bottom: 35px;
+
+  &__Title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+}
+
+.MainSection {
   h2 {
     color: #003d5b;
     font-size: 1.2em;
     font-weight: 800;
     margin: 8px 0 5px;
   }
-  h3 {
+}
+
+.Job {
+  margin-bottom: 1em;
+
+  &__Title {
     font-size: 1em;
     font-weight: 500;
     color: #30638e;
     margin: 0 0 5px;
   }
-  p {
-    margin-top: 0;
+  &__CompanyDescription {
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: -5px;
+  }
+  &__Description {
+    p,
+    h4,
+    ul {
+      margin: 0.4em 0;
+    }
+    ul {
+      list-style: initial;
+      padding-left: 40px;
+    }
   }
 }
 
-.SidebarSection {
-  margin-bottom: 35px;
-}
-.SidebarSection__Title {
-  font-size: 1.2em;
-  text-transform: uppercase;
+// SPECIFICS
+.SkillsList {
+  li {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-right: 5px;
+  }
 }
 
+// RESPONSIVE
 @media all and (min-width: 800px) {
   main {
     flex: 4 0px;
@@ -104,11 +135,10 @@ main {
   }
 }
 
-// SPECIFICS
-.SkillsList {
-  li {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
+@media all and (max-width: 500px) {
+  .SkillsList {
+    li {
+      width: 100%;
+    }
   }
 }
