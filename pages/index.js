@@ -114,6 +114,7 @@ const Index = () => (
           <li>Accessibility</li>
           <li>HTML</li>
           <li>CSS</li>
+          <li>GraphQL</li>
         </ul>
       </MainSection>
       <MainSection title="Education">
