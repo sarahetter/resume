@@ -21,20 +21,19 @@ const Index = () => (
       <SidebarSection>
         <p>
           Hi! My name is Sarah Etter and I work as a full stack engineer. I
-          currently specialize in DevOps. My first love is Front-End
-          development. I have experience working autonomously and as a team
-          leader: training interns, leading junior developers and remote
-          workers, and interfacing with external contract teams of up to 20
-          people.
+          currently specialize in Front-End development. I have experience
+          working autonomously and as a team leader: training interns, leading
+          junior developers and remote workers, and interfacing with external
+          contract teams of up to 20 people.
         </p>
       </SidebarSection>
       <SidebarSection title="About Me">
         <ul>
           <li>Live in Saskatoon, Canada</li>
-          <li>Lead Full Stack Engineer with > 5 years experience</li>
-          <li>Key Programming Languages: PHP, JavaScript</li>
+          <li>Full Stack Engineer with over 7 years experience</li>
+          <li>Key Programming Languages: JavaScript, PHP</li>
           <li>Conference Speaker</li>
-          <li>Lifelong Musician</li>
+          <li>Musician</li>
         </ul>
       </SidebarSection>
       <SidebarSection title="Contact Me">
@@ -43,7 +42,6 @@ const Index = () => (
             <a href="mailto:sarah@sarahetter.com">sarah@sarahetter.com</a>
           </li>
           <li>
-            {" "}
             <a href="https://www.linkedin.com/in/sarah-etter/">
               https://www.linkedin.com/in/sarah-etter/
             </a>
@@ -70,15 +68,41 @@ const Index = () => (
     <main>
       <MainSection title="Work Experience">
         <Job
-          title="Software Engineer - Territorial (2014/01 - Present)"
+          title="Software Engineer II - Elasticsearch Inc (2018/12 - present)"
+          companyDescription="Elasticsearch builds search, observability, and security solutions"
+        >
+          <p>
+            As a UI engineer on the Cloud team, I work on Elastic's Cloud
+            product - a managed Elasticsearch service. I work with a large team
+            to architect and code the front end application. I also test, review
+            code, and spend time on a support on call rotation.
+          </p>
+          <p>Key Achievements:</p>
+          <ul>
+            <li>
+              Developed the redesign & refactor of the Create Elasticsearch
+              Deployment flow
+            </li>
+            <li>
+              Added the feature to add keystore secrets to Elasticsearch on
+              Cloud
+            </li>
+            <li>
+              Engineered the CI/CD flow to improve the functionality of
+              automated testing for our application
+            </li>
+          </ul>
+        </Job>
+        <Job
+          title="Software Engineer - Territorial (2014/01 - 2018/11)"
           companyDescription="Territorial is a digital product & branding agency"
         >
           <p>
-            As a full stack web developer at a small company, I have the
-            opportunity to build each of our products from the ground up. We
-            work on large CMS implementations, IOT big data applications,
-            geographical mapping apps, and an internal startup mental health
-            tracking app. I communicate with our clients directly.
+            As a full stack web developer at a small company, I had the
+            opportunity to build each of the companies products from the ground
+            up. Territorial works on large CMS implementations, IOT big data
+            applications, geographical mapping apps, and an internal startup
+            mental health tracking app. I communicated with clients directly.
           </p>
           <p>Key Achievements:</p>
           <ul>
@@ -91,7 +115,7 @@ const Index = () => (
             </li>
           </ul>
         </Job>
-        <Job title="Web Developer - Freelance (2012 - Present)">
+        <Job title="Web Developer - Freelance (2012 - 2018)">
           <p>
             I created plain HTML / CSS / jQuery or WordPress based websites for
             clients including food trucks, home builders, and agricultural
@@ -103,12 +127,12 @@ const Index = () => (
         <ul className="SkillsList">
           <li>PHP</li>
           <li>JavaScript, ECMAScript</li>
+          <li>TypeScript</li>
           <li>Laravel</li>
           <li>React / Redux</li>
           <li>AWS (EC2, ElastiCache, IAM, S3, SQS)</li>
           <li>Google Cloud</li>
           <li>Docker</li>
-          <li>Kubernetes</li>
           <li>Gitlab-CI</li>
           <li>Git</li>
           <li>Accessibility</li>
