@@ -1,10 +1,6 @@
-// next.config.js
-const withSass = require("@zeit/next-sass");
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+}
 
-module.exports = withSass({
-  exportPathMap() {
-    return {
-      "/": { page: "/" }
-    };
-  }
-});
+module.exports = nextConfig
