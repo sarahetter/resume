@@ -76,7 +76,7 @@ const Home: NextPage = () => {
       <main>
         <MainSection title="Work Experience">
           <Job
-            title="Software Engineer II - Elasticsearch Inc (2018/12 - present)"
+            title="Senior Software Engineer - Elasticsearch Inc (2018/12 - present)"
             companyDescription="Elasticsearch builds search, observability, and security solutions"
           >
             <p>
